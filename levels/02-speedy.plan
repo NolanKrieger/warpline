@@ -1,0 +1,12 @@
+# Speedy Thing — developer route plan
+R B:2.99,2.6 for 1          # magenta high on the back wall (the launcher)
+R until x>=20.5
+RJ until x>=22.2
+LJ A:24,29 for 1            # cyan on the pit floor, fired mid-air over the pit
+LJ until vx<=0.2            # brake so we drop into the portal
+J until tele
+- until grounded
+D until x>=90.5             # slide the whole tunnel, keep the speed
+DJ for 1                    # jump out of the slide at the edge
+J until grounded
+R until finished

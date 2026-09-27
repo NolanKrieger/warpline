@@ -1,0 +1,27 @@
+# Boot — developer route plan (compiled to 01-boot.route by tools/Trace --compile)
+R until x>=12.5
+RJ until vy>=0
+R until grounded
+R until x>=28.5
+RJ until vy>=0
+R until grounded
+R until x>=41.5
+RD until x>=52
+R until x>=70
+RJ until wallR
+R for 1
+LJ until wallL
+L for 1
+RJ until wallR
+R for 1
+LJ until wallL
+L for 1
+RJ until grounded
+R until x>=84.5
+RJ until vy>=0
+R until grounded
+R B:145.99,5 for 1        # magenta high on the far wall, over the barrier
+R A:123.9,17.2 for 1      # cyan on the barrier's foot
+R until tele
+L until grounded
+L until finished

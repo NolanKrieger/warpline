@@ -1,0 +1,11 @@
+# Lockstep — developer route plan
+R B:2.95,6 for 1             # magenta high on the back wall
+R until x>=12.5              # over the timed button, off the plateau
+R until air
+R A:15,29 for 1              # cyan on the pit floor
+L until vx<=0.2
+- until tele                 # fling: past the beam, through the timed door
+- until grounded
+R until x>=109.4             # over the second button, through two beams and the second door
+RJ until grounded            # hop the spikes
+R until finished

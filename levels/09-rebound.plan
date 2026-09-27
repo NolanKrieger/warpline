@@ -1,0 +1,33 @@
+# Rebound — developer route plan
+R until x>=6.2
+RJ until vy>=0              # full jump toward the pad
+R until y>=27.2
+RJ for 1                    # press jump just before landing: boosted bounce over the wall
+R until grounded
+R until y>=26               # off the edge into the shaft
+- until vy<=-1              # first bounce
+- until wallR
+L for 14                    # step off the wall (a jump against a wall is a wall jump)
+R for 14
+- until vy>=0
+- until y>=27.2
+J for 1                     # jump on every landing: each bounce is higher
+- until vy<=-1
+- until vy>=0
+- until y>=27.2
+J for 1
+- until vy<=-1
+- until vy>=0
+- until y>=27.2
+J for 1
+- until vy<=-1
+- until vy>=0
+- until y>=27.2
+J for 1
+- until vy<=-1
+- until y<=15.2             # above the high ground now
+R until grounded
+R until x>=60.4
+RJ until vy>=0              # off the edge toward the first island
+R until x>=114              # bounce island to island without touching the spikes
+R until finished

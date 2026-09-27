@@ -1,0 +1,19 @@
+# Trampoline — developer route plan (draft)
+R until x>=25
+- A:28.5,1.95 for 1         # cyan on the high ceiling above the open half of the pad
+- B:19.5,23.05 for 1        # magenta under the low block
+L until x<=21
+R until vx>=-0.3            # brake under the block
+- until vy>=0
+- until y>=27.4
+J for 1                     # jump as we land: up into magenta, out of cyan up top
+- until tele
+- until vy<=-5              # the big bounce
+R until grounded
+R until x>=62.5
+D until vx<=0.05            # slide to a stop on the gel, over the button (crouched = no bounce)
+D B:117.9,4.6 for 1         # magenta through the open door onto the far wall
+D A:77.5,6.02 for 1         # cyan on the ledge floor past the gel
+RD until x>=75.3            # crouch-walk off the gel
+R until tele
+L until finished

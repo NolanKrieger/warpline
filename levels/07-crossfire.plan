@@ -1,0 +1,14 @@
+# Crossfire — developer route plan
+R until x>=25.8
+RJ until grounded           # hop bullet 1
+R until x>=35.1
+RJ until grounded           # hop bullet 2
+R until x>=44.4
+RJ until grounded           # hop bullet 3
+R until x>=53.8
+RJ until grounded           # hop bullet 4 and onto the step
+R until x>=75
+R A:83.95,24.9 for 1        # cyan where the stream hits
+R until x>=100
+R B:94.05,13.9 for 1        # magenta on the pillar: the stream now presses the high button
+R until finished

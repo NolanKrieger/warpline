@@ -1,0 +1,29 @@
+# Undertow — developer route plan (draft)
+R until x>=22.8
+RJ until wallR
+R for 1
+LJ until wallL
+L for 1
+RJ until wallR
+R for 1
+LJ until wallL
+L for 1
+RJ until wallR
+R for 1
+LJ until wallL
+L for 1
+RJ until wallR
+R for 1
+LJ until wallL
+L for 1
+RJ until wallR
+R for 1
+LJ until wallL
+L for 1
+RJ until grounded
+R until x>=60.5             # off the shelf...
+R until x>=62.45            # ...through the grill curtain (all the way through)
+R A:65.2,21.95 for 1        # cyan on the raft as it starts sliding out
+R B:100.5,29.05 for 1       # magenta on the far floor
+R until tele                # land in cyan, launch out of magenta
+R until finished

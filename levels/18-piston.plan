@@ -1,0 +1,20 @@
+# Piston — developer route plan
+R until x>=85.5             # through the pistons at full speed, to the edge of the laser field
+- until vx<=0.05
+- until mx.shield>=86.3
+R until x>=91.3
+- until mx.shield>=90.3
+R until x>=95.3
+- until mx.shield>=94.3
+R until x>=99.3
+- until mx.shield>=98.3
+R until x>=103.3
+- until mx.shield>=102.3
+R until x>=107.3
+- until mx.shield>=106.3
+R until x>=111.3
+- until mx.shield>=110.3
+R until x>=115.3
+- until mx.shield>=114.3
+R until x>=119.3
+R until finished

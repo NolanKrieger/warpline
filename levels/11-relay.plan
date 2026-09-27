@@ -1,0 +1,18 @@
+# Relay — developer route plan
+R B:2.95,3.4 for 1           # magenta high on the back wall
+R until x>=9.8
+R until air
+R A:13.5,29 for 1            # cyan on the pit floor, mid-air
+L until vx<=0.2
+- until tele                 # fling 1: out of the back wall at full fall speed
+- until x>=20
+- A:48.5,27.2 for 1          # mid-flight: cyan onto the pad where we will come down
+- B:51.5,27.2 for 1          # ...and magenta beside it
+- until tele                 # the relay: in falling, out rising, speed kept
+- until grounded
+R until x>=152.2             # off the far end of the ledge
+R A:160.5,27.2 for 1         # cyan on the patch below where we'll land
+R B:151.05,10.5 for 1        # magenta on the ledge's far face
+- until tele                 # second relay: out of the ledge going right
+- until grounded
+R until finished

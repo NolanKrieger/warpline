@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warpline", "Warpline.csproj", "{B9F08B92-4C43-45F3-8039-6F67769FCA22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{90BDFC1C-72AB-496E-8A48-181696A4E790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sim", "src\Sim\Sim.csproj", "{9979093B-ED83-48EA-B2C2-4AE8F1D30F31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9F08B92-4C43-45F3-8039-6F67769FCA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F08B92-4C43-45F3-8039-6F67769FCA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F08B92-4C43-45F3-8039-6F67769FCA22}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F08B92-4C43-45F3-8039-6F67769FCA22}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9979093B-ED83-48EA-B2C2-4AE8F1D30F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9979093B-ED83-48EA-B2C2-4AE8F1D30F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9979093B-ED83-48EA-B2C2-4AE8F1D30F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9979093B-ED83-48EA-B2C2-4AE8F1D30F31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9979093B-ED83-48EA-B2C2-4AE8F1D30F31} = {90BDFC1C-72AB-496E-8A48-181696A4E790}
+	EndGlobalSection
+EndGlobal

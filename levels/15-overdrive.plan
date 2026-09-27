@@ -1,0 +1,26 @@
+# Overdrive — developer route plan
+R until x>=58
+R A:69.95,28.4 for 1          # cyan on the first step's face, at floor level
+R B:66.5,29.05 for 1          # magenta on the panel strip just before it
+RD until tele                 # slide over the strip at gel speed: in the floor, up the wall
+R until grounded              # tier 1
+R until x>=103
+R A:114.95,23.4 for 1         # cyan on the next step's face
+R B:111.5,24.05 for 1         # magenta on the strip
+RD until tele
+R until grounded              # tier 2
+R until x>=145
+R A:156.95,18.4 for 1
+R B:153.5,19.05 for 1
+RD until tele
+R until grounded              # tier 3
+R until x>=169.3
+RJ until grounded             # hop the shaft
+R until x>=179.2
+R B:187.95,2.8 for 1          # magenta high on the far wall, past the ledge
+L until x<=172.8              # back to the shaft
+L until air
+L A:172.2,29.2 for 1          # cyan on the shaft floor, mid-fall
+R until vx>=-0.2
+- until tele                  # fall becomes a flight across to the exit ledge
+L until finished

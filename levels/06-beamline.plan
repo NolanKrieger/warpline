@@ -1,0 +1,6 @@
+# Beamline — developer route plan
+R until x>=70
+R A:79.95,9 for 1           # cyan on the pillar's left face, in the beam
+R until x>=92
+R B:82.05,5 for 1           # magenta on its right face: beam -> receiver -> door
+R until finished

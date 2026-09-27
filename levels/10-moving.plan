@@ -1,0 +1,11 @@
+# Moving Parts — developer route plan
+R until x>=17.3
+RJ until grounded           # hop onto the lift
+R until grounded&y<=11.4    # ride to the top
+R until x>=59
+- until mx.ferry<=62.3       # wait for the ferry to come home
+R until air                  # step off...
+R until grounded             # ...onto it
+- until mx.ferry>=116.5      # ride to the far end
+RJ until grounded            # hop across to the tower
+R until finished

@@ -1,0 +1,18 @@
+# Ferris — developer route plan
+R until x>=37.3
+- until vx<=0.05
+- A:38.2,8.05 for 1         # cyan under our feet, at the edge
+- until tick>=315
+J until vy>=0               # hop to see over the edge
+- B:52.6,24.6 for 1         # magenta on the back of car 1's roof as it swings up the left side
+- until tele                # fall back onto cyan: out onto the car, in front of the portal
+- until grounded
+- until my.c1<=9.05         # ride up and over
+R until x>=61.2             # run to the front of the car
+RJ until grounded           # jump off with the car's speed on top of ours
+R until x>=100.4
+RJ until grounded           # running jump onto a car swinging in close
+- until my.w1<=9.05         # up and over
+R until x>=118.3            # run to the front
+RJ until grounded           # and jump for the exit platform
+R until finished

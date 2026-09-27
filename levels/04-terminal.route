@@ -1,0 +1,23 @@
+# Terminal - developer route, compiled from 04-terminal.plan
+1 B:6.5,1.90625
+154 A:6.5,29.5
+134 B:3.90625,5
+229 R
+11 R J
+1 R
+32 L J
+1 L
+32 R J
+1 R
+32 L J
+1 L
+32 R J
+1 R
+32 L J
+1 L
+66 R J
+11 R
+1 R B:131.5,29
+25 L A:101,29
+64
+209 R

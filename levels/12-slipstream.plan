@@ -1,0 +1,11 @@
+# Slipstream — developer route plan
+R until x>=43.5              # top speed on the gel
+RD until x>=75.3             # slide the whole tunnel
+DJ for 1                     # slide-jump the pit
+J until grounded
+R until x>=115.5             # back to top speed on the second gel
+RJ until vy>=0               # up the step at full speed
+R until grounded
+RD until x>=171.2            # slide through tunnel 2
+RJ until grounded            # stand, hop the spikes into the exit
+R until finished

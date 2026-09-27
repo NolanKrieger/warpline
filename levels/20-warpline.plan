@@ -1,0 +1,43 @@
+# Warpline — developer route plan
+R until x>=33.5             # top speed on the gel
+RJ until grounded           # clear the pit (and hit the timed button on landing)
+R until x>=116.4            # under the laser gates, through the timed door, onto the bounce gel
+L until vx<=0.2             # stop drifting, close to the far wall
+- until vy>=0
+- until y>=27.2
+J for 1                     # jump on every landing
+- until vy<=-1
+- until vy>=0
+- until y>=27.2
+J for 1
+- until vy<=-1
+- until vy>=0
+- until y>=27.2
+J for 1
+- until vy<=-1
+- until vy>=0
+- until y>=27.2
+J for 1
+- until vy<=-1
+- until vy>=0
+- until y>=27.2
+J for 1
+- until vy<=-1
+- until vy>=0
+- until y>=27.2
+J for 1
+- until vy<=-1
+- until y<=10
+R until grounded            # onto the high ground
+R until x>=128.9
+RJ until grounded           # hop the turret's bullets
+R until x>=138.2
+RJ until grounded
+R until x>=147.5
+RJ until grounded
+R until x>=156.9
+RJ until grounded
+RD until x>=168.6           # slide under the turret between shots...
+R until x>=169.5            # ...onto the ferry
+- until mx.ferry>=187.9     # ride across
+R until finished

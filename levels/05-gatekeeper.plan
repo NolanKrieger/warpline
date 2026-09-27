@@ -1,0 +1,11 @@
+# Gatekeeper — developer route plan
+R until open=d1
+R until x>=29.5             # onto the timed button
+R until x>=45.5
+RJ until vy>=0              # hop the spikes
+R until grounded
+R until x>=84.9             # onto the hold button (door d3 opens)
+R B:124.9,28 for 1          # magenta through the open doorway onto the far wall
+R A:89.5,29 for 1           # cyan on the floor panels ahead
+R until tele
+L until finished

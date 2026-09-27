@@ -1,0 +1,9 @@
+# Afterburner — developer route plan
+R until x>=44.5             # full speed on the gel
+RJ until grounded           # clear the pit
+R until x>=70
+R B:74.5,29.2 for 1         # magenta on the floor under the ledge
+R until x>=90
+R A:118.95,28.5 for 1       # cyan on the end wall at floor level
+R until tele                # into the wall at gel speed, out of the floor going up
+L until finished

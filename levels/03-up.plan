@@ -1,0 +1,14 @@
+# Up and Over — developer route plan
+R until x>=20.4
+R B:51.5,29 for 1           # magenta on the launch pad, fired from the edge
+R until x>=21.6
+R A:31,29 for 1             # cyan where we will land
+R until tele
+R until grounded            # up and over onto the tower (through the grill: portals gone)
+R until x>=80.6
+R B:106.5,29 for 1          # new magenta on the second pad
+L A:83,29 for 1             # new cyan in the drop zone below
+L until vx<=0.5
+- until tele
+R until grounded
+R until finished

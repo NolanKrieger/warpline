@@ -1,0 +1,26 @@
+# Ricochet — developer route plan
+R until vy<=-1               # bounced
+R until vy>=0
+R until y>=27.4
+RJ for 1                     # jump just before landing: next bounce is higher
+R until vy<=-1               # bounced
+R until vy>=0
+R until y>=27.4
+RJ for 1                     # jump just before landing: next bounce is higher
+R until vy<=-1               # bounced
+R until vy>=0
+R until y>=27.4
+RJ for 1                     # jump just before landing: next bounce is higher
+R until vy<=-1               # bounced
+R until vy>=0
+R until y>=27.4
+RJ for 1                     # jump just before landing: next bounce is higher
+R until vy<=-1               # bounced
+R until vy>=0
+R until y>=27.4
+RJ for 1                     # jump just before landing: next bounce is higher
+R until grounded             # over the wall onto the ledge
+R until x>=96
+R A:90.05,16.5 for 1          # cyan where the stream hits the pillar
+R B:90.05,12 for 1            # magenta above it, level with the caged button
+R until finished
